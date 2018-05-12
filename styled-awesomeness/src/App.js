@@ -1,6 +1,9 @@
 import React, { Component } from "react";
-import styled from "styled-components";
+import styled, { injectGlobal } from "styled-components";
 
+injectGlobal`
+  body: padding
+`
 class App extends Component {
   render() {
     return (
